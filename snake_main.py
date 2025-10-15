@@ -1,14 +1,12 @@
-import game_display
 from game_display import GameDisplay
 from game import *
 
 
 #################################################################
-# FILE : snake_main.py
-# WRITER : orin levi , orin.levi , 206440075 and Pnina_ei Pnina 212125678
+# FILE : snake_main.py‹›
+# WRITER : orin levi
 # EXERCISE : intro2cs2 ex10 2021
 # DESCRIPTION: the main loop for the game
-# STUDENTS I DISCUSSED THE EXERCISE WITH: Orin Levi, Pnina Eisenbach.
 #################################################################
 
 
@@ -50,7 +48,7 @@ def main_loop(gd: GameDisplay) -> None:
 	the keyboard, changes the snake's direction in accordance and moves the snake
 	toward his currently direction. After that, if the snake didn't hit the
 	bomb coordinates or himself, It promotes the explosion of the bomb.
-	Than it checks if there apples that need to be relocated (eaten by
+	Then it checks if there apples that need to be relocated (eaten by
 	the snake or was hit by the bomb) and if there is a place on the
 	board to place them. If there isn't a place for apple that need to be
 	relocate its display the Game's element and end the game. Else,
@@ -80,6 +78,7 @@ def main_loop(gd: GameDisplay) -> None:
 
 		game.check_apples_to_relocate_and_score()  # updates score from
 		# apples and counts how many apples should be relocated.
+
 		if game.is_board_full():  # checks_empty_space_in_board
 			display_elements(gd, game, game.do_snake_hit_bomb())
 			gd.end_round()
@@ -98,6 +97,6 @@ def main_loop(gd: GameDisplay) -> None:
 		gd.end_round()
 
 
-if __name__ == '__main__':
-	gd = GameDisplay()
-	main_loop(gd)
+
+
+

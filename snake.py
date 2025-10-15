@@ -4,10 +4,9 @@ from typing import List
 
 #################################################################
 # FILE : snake.py
-# WRITER : orin levi , orin.levi , 206440075 and Pnina_ei Pnina 212125678
+# WRITER : orin levi
 # EXERCISE : intro2cs2 ex10 2021
 # DESCRIPTION: class Snake
-# STUDENTS I DISCUSSED THE EXERCISE WITH: Orin Levi, Pnina Eisenbach.
 #################################################################
 
 class Node:

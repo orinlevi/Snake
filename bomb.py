@@ -2,10 +2,9 @@ from copy import deepcopy
 
 #################################################################
 # FILE : bomb.py
-# WRITER : orin levi , orin.levi , 206440075 and Pnina_ei Pnina 212125678
+# WRITER : orin levi
 # EXERCISE : intro2cs2 ex10 2021
 # DESCRIPTION: class Bomb
-# STUDENTS I DISCUSSED THE EXERCISE WITH: Orin Levi, Pnina Eisenbach.
 #################################################################
 
 
@@ -14,7 +13,7 @@ class Bomb:
 	Class game creates a game object. The bomb's color, radius (remain
 	radius to the explosion), time until the explosion should start,
 	coordinates, and "already exploded coordinates (the coordinates of all the
-	levels of the bomb - prev and current) are saved in a attributes in the
+	levels of the bomb - prev and current) are saved in attributes in the
 	__init__. In addition, there are two bool attribute that indicates
 	whether the explosion already begin and whether it already over (
 	"__explosion_began" and "__end_of_bomb").

@@ -6,10 +6,9 @@ from snake import *
 
 #################################################################
 # FILE : game.py
-# WRITER : orin levi , orin.levi , 206440075 and Pnina_ei Pnina 212125678
+# WRITER : orin levi
 # EXERCISE : intro2cs2 ex10 2022
 # DESCRIPTION: class game
-# STUDENTS I DISCUSSED THE EXERCISE WITH: Orin Levi, Pnina Eisenbach.
 #################################################################
 
 
